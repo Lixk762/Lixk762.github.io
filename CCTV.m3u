@@ -1,4 +1,4 @@
 #EXTM3U
 
-#EXTINF:-1 group-title="WZYTV",CCTV-1综合
-http://tv.cnbeijing.xyz/tvnx.php?id=001
+#EXTINF:-1 group-title="中央1套",CCTV 1
+http://cctv1.vtime.cntv.dnion.com:8000/live/no/14_/seg0/index.m3u8
