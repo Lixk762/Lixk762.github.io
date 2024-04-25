@@ -299,7 +299,7 @@ https://fox-foxnewsnow-samsungus.amagi.tv/playlist.m3u8news
 https://i.mjh.nz/SamsungTVPlus/CAAJ2700011IF.m3u8
 #EXTINF:-1 tvg-id="Sky News" tvg-name="Sky News" tvg-logo="https://Lixk762.github.io/logo/SKY_news.jpg" group-title="国际",Sky News
 https://i.mjh.nz/SamsungTVPlus/USBB52000022Q.m3u8
-#EXTINF:-1 tvg-id="CBS News Bay Area" tvg-name="CBS News Bay Area" tvg-logo="https://Lixk762.github.io/logo/newsCBS_.jpg" group-title="国际",CBS News Bay Area
+#EXTINF:-1 tvg-id="CBS News Bay Area" tvg-name="CBS News Bay Area" tvg-logo="https://Lixk762.github.io/logo/CBS_news.jpg" group-title="国际",CBS News Bay Area
 https://i.mjh.nz/SamsungTVPlus/USBD2700010WB.m3u8
 #EXTINF:-1 tvg-id="Euronews Live" tvg-name="Euronews Live" group-title="国际",Euronews Live
 https://i.mjh.nz/SamsungTVPlus/GBAJ4900020VP.m3u8
