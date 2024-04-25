@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>测试网页</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            overflow: hidden;
+            padding: 0 20px;
+        }
+        header, footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
+        nav {
+            text-align: center;
+            padding: 1em;
+            background: #444;
+        }
+        nav a {
+            margin: 0 0.5em;
+            color: white;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .content .text {
+            flex: 1;
+            min-width: 300px; /* Minimum width for the text column */
+            padding: 20px;
+            background: #fff;
+            margin: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        @media (max-width: 768px) {
+            .content {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>测试网页</h1>
+    </header>
+    
+    <div class="container">
+        <div class="content">
+            <div class="text">
+                <h2>欢迎来到我的测试网页</h2>
+                <p>测试测试测试</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
