@@ -14,13 +14,13 @@ https://fox-foxnewsnow-samsungus.amagi.tv/playlist.m3u8news
 https://i.mjh.nz/SamsungTVPlus/CAAJ2700011IF.m3u8
 #EXTINF:-1 tvg-id="Sky News" tvg-name="Sky News" tvg-logo="https://Lixk762.github.io/logo/SKY_news.jpg" group-title="国际",Sky News
 https://i.mjh.nz/SamsungTVPlus/USBB52000022Q.m3u8
-#EXTINF:-1 group-title="国际",CBS News Bay Area
+#EXTINF:-1 tvg-id="CBS News Bay Area" tvg-name="CBS News Bay Area" tvg-logo="https://Lixk762.github.io/logo/newsCBS.jpg" group-title="国际",CBS News Bay Area
 https://i.mjh.nz/SamsungTVPlus/USBD2700010WB.m3u8
-#EXTINF:-1 group-title="国际",Euronews Live
+#EXTINF:-1 tvg-id="Euronews Live" tvg-name="Euronews Live" group-title="国际",Euronews Live
 https://i.mjh.nz/SamsungTVPlus/GBAJ4900020VP.m3u8
 #EXTINF:-1 group-title="国际",AXS TV Now
 https://dikcfc9915kp8.cloudfront.net/hls/1080p/playlist.m3u8
-#EXTINF:-1 group-title="国际",ABC Australia
+#EXTINF:-1 tvg-id="ABC New Australia" tvg-name="ABC News Australia" tvg-logo="https://Lixk762.github.io/logo/ABC_news_AU.jpg" group-title="国际",ABC News Australia
 https://abc-iview-mediapackagestreams-2.akamaized.net/out/v1/6e1cc6d25ec0480ea099a5399d73bc4b/index.m3u8
 #EXTINF:-1 group-title="国际",Newsmax
 http://nmxlive.akamaized.net/hls/live/529965/Live_1/index.m3u8
