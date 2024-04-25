@@ -285,20 +285,20 @@ http://[2409:8087:1a0b:df::4005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225742/index.m3u8
 #EXTINF:-1 tvg-id="CNN" tvg-name="CNN" tvg-logo="https://Lixk762.github.io/logo/CNN.jpg" group-title="国际",CNN
 https://i.mjh.nz/SamsungTVPlus/GBBD8000016N.m3u8
-#EXTINF:-1 group-title="国际",BBC
+#EXTINF:-1 tvg-id="BBC News" tvg-name="BBC News" tvg-logo="https://Lixk762.github.io/logo/BBC_news.jpg" group-title="国际",BBC News
 https://i.mjh.nz/SamsungTVPlus/US4000033L.m3u8
-#EXTINF:-1 group-title="国际",CNA
+#EXTINF:-1 tvg-id="CNA" tvg-name="CNA" tvg-logo="https://Lixk762.github.io/logo/CNA.jpg" group-title="国际",CNA
 https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8
-#EXTINF:-1 group-title="国际",ABC News Live
+#EXTINF:-1 tvg-id="ABC News" tvg-name="ABC News" tvg-logo="https://Lixk762.github.io/logo/ABC_news.jpg" group-title="国际",ABC News
 https://i.mjh.nz/SamsungTVPlus/USBC39000171G.m3u8
-#EXTINF:-1 group-title="国际",Live Now FOX
-https://fox-foxnewsnow-samsungus.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="国际",NBC News Now
-https://i.mjh.nz/SamsungTVPlus/CAAJ2700011IF.m3u8
-#EXTINF:-1 group-title="国际",Sky News
-https://i.mjh.nz/SamsungTVPlus/USBB52000022Q.m3u8
-#EXTINF:-1 group-title="国际",ABC7 Bay Area
+#EXTINF:-1 tvg-id="ABC-7 News" tvg-name="ABC-7 News" tvg-logo="https://Lixk762.github.io/logo/ABC7_news.jpg" group-title="国际",ABC-7 News
 https://i.mjh.nz/SamsungTVPlus/USBC4400010RH.m3u8
+#EXTINF:-1 tvg-id="Live Now Fox" tvg-name="Live Now Fox" tvg-logo="https://Lixk762.github.io/logo/LiveNowFox.jpg" group-title="国际",Live Now Fox
+https://fox-foxnewsnow-samsungus.amagi.tv/playlist.m3u8news
+#EXTINF:-1 tvg-id="NBC News Now" tvg-name="NBC News Now" tvg-logo="https://Lixk762.github.io/logo/NBC_news_now.jpg" group-title="国际",NBC News Now
+https://i.mjh.nz/SamsungTVPlus/CAAJ2700011IF.m3u8
+#EXTINF:-1 tvg-id="Sky News" tvg-name="Sky News" tvg-logo="https://Lixk762.github.io/logo/SKY_news.jpg" group-title="国际",Sky News
+https://i.mjh.nz/SamsungTVPlus/USBB52000022Q.m3u8
 #EXTINF:-1 group-title="国际",CBS News Bay Area
 https://i.mjh.nz/SamsungTVPlus/USBD2700010WB.m3u8
 #EXTINF:-1 group-title="国际",Euronews Live
