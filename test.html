@@ -3,33 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IPTV电视直播发布页</title>
+    <title>响应式静态文本网页</title>
     <style>
         body {
+            margin: 0;
+            padding: 0;
             font-family: Arial, sans-serif;
-            margin: 40px;
-            background-color: #f4f4f4;
+            background: #f4f4f4;
         }
         .container {
-            width: 80%;
+            max-width: 1200px;
             margin: auto;
-            background-color: #fff;
+            overflow: hidden;
+            padding: 0 20px;
+        }
+        header, footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
+        nav {
+            text-align: center;
+            padding: 1em;
+            background: #444;
+        }
+        nav a {
+            margin: 0 0.5em;
+            color: white;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .content .text {
+            flex: 1;
+            min-width: 300px; /* Minimum width for the text column */
             padding: 20px;
+            background: #fff;
+            margin: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-        h1, h2, h3, p {
-            color: #333;
+        @media (max-width: 768px) {
+            .content {
+                flex-direction: column;
+            }
         }
     </style>
 </head>
 <body>
+    <header>
+        <h1>我的响应式网页</h1>
+    </header>
+    <nav>
+        <a href="#home">首页</a>
+        <a href="#about">关于</a>
+        <a href="#contact">联系我们</a>
+    </nav>
     <div class="container">
-        <h1>IPTV电视直播发布页</h1>
-        <h3>中国电视直播源：</h3>
-        <p>https://lixk762.github.io/m3u/China.txt</p>
-        <h3>外国电视直播源：</h3>
-        <p>https://Lixk762.github.io/m3u/International.txt</p>
+        <div class="content">
+            <div class="text">
+                <h2>欢迎来到我的网页</h2>
+                <p>这是一个响应式设计的文本段落。无论在手机、平板还是桌面电脑上查看，都能保持良好的布局和可读性。</p>
+            </div>
+            <div class="text">
+                <h2>关于本网页</h2>
+                <p>本网页使用HTML和CSS创建，利用了Flexbox布局和媒体查询来实现响应式设计。</p>
+            </div>
+        </div>
     </div>
+    <footer>
+        <p>版权所有 &copy; 2023</p>
+    </footer>
 </body>
 </html>
 
