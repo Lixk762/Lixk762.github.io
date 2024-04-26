@@ -399,31 +399,31 @@ http://sansat.net:88/HhPRf2nAlsVeRU9/AnzgPldGC8OHsyY/96284
 #EXTINF:-1 tvg-id="Fashion TV" tvg-name="Fashion TV" tvg-logo="https://Lixk762.github.io/logo/Fashion_TV.png" group-title="国际",[法国]Fashion TV/时尚购物
 http://91.247.68.229:8000/play/Fashion/index.m3u8
 
-#EXTINF:-1 tvg-id="Fight Network" tvg-name="Fight Network" tvg-logo="https://Lixk762.github.io/logo/.png" group-title="国际",[加拿大]Fight Network/格斗运动
+#EXTINF:-1 tvg-id="Fight Network" tvg-name="Fight Network" tvg-logo="https://Lixk762.github.io/logo/Fight_network.png" group-title="国际",[加拿大]Fight Network/格斗运动
 https://d12a2vxqkkh1bo.cloudfront.net/hls/1080p/playlist.m3u8
 
-#EXTINF:-1  tvg-id="Cinemax East" tvg-name="Cinemax East" tvg-logo="https://Lixk762.github.io/logo/.png" group-title="国际",[美国]Cinemax East/美国经典电影
+#EXTINF:-1  tvg-id="Cinemax East" tvg-name="Cinemax East" tvg-logo="https://Lixk762.github.io/logo/Cinemax_east.png" group-title="国际",[美国]Cinemax East/美国经典电影
 http://dns.clientetv.net:8080/sourceuxusaX2/bRsCaNup9Cb3/10816
 
-#EXTINF:-1  tvg-id="HBO" tvg-name="HBO" tvg-logo="https://Lixk762.github.io/logo/.png" group-title="国际",[美国]HBO/家庭电影频道
+#EXTINF:-1  tvg-id="HBO" tvg-name="HBO" tvg-logo="https://Lixk762.github.io/logo/HBO.png" group-title="国际",[美国]HBO/家庭电影频道
 http://170.254.18.106/HBO/index.m3u8
 
-#EXTINF:-1  tvg-id="HBO Plus" tvg-name="HBO Plus" tvg-logo="https://Lixk762.github.io/logo/.png" group-title="国际",[美国]HBO Plus/家庭电影频道+
+#EXTINF:-1  tvg-id="HBO Plus" tvg-name="HBO Plus" tvg-logo="https://Lixk762.github.io/logo/HBO_Plus.png" group-title="国际",[美国]HBO Plus/家庭电影频道+
 http://170.254.18.106/HBO_PLUS/index.m3u8
 
-#EXTINF:-1  tvg-id="HBO West" tvg-name="HBO West" tvg-logo="https://Lixk762.github.io/logo/.png" group-title="国际",[美国]HBO West/西部家庭电影频道
+#EXTINF:-1  tvg-id="HBO West" tvg-name="HBO West" tvg-logo="https://Lixk762.github.io/logo/hbo_west.gif" group-title="国际",[美国]HBO West/西部家庭电影频道
 http://dns.clientetv.net:8080/sourceuxusaX2/bRsCaNup9Cb3/10849
 
-#EXTINF:-1  tvg-id="HBO2" tvg-name="HBO2" tvg-logo="https://Lixk762.github.io/logo/.png" group-title="国际",[美国]HBO2//家庭电影频道2 
+#EXTINF:-1  tvg-id="HBO2" tvg-name="HBO2" tvg-logo="https://Lixk762.github.io/logo/HBO2.png" group-title="国际",[美国]HBO2//家庭电影频道2 
 http://170.254.18.106/HBO2/index.m3u8
 
-#EXTINF:-1  tvg-id="HBO Family" tvg-name="HBO Family" tvg-logo="https://Lixk762.github.io/logo/.png" group-title="国际",[美国]HBO Family/家庭剧场
+#EXTINF:-1  tvg-id="HBO Family" tvg-name="HBO Family" tvg-logo="https://Lixk762.github.io/logo/HBO_Family.png" group-title="国际",[美国]HBO Family/家庭剧场
 http://170.254.18.106/HBO_FAMILY/index.m3u8
 
-#EXTINF:-1  tvg-id="HBO Signature" tvg-name="HBO Signature" tvg-logo="https://Lixk762.github.io/logo/.png" group-title="国际",[美国]HBO Signature/亚洲家庭电影频道
+#EXTINF:-1  tvg-id="HBO Signature" tvg-name="HBO Signature" tvg-logo="https://Lixk762.github.io/logo/HBO_Signature.png" group-title="国际",[美国]HBO Signature/亚洲家庭电影频道
 http://170.254.18.106/HBO_SIG/index.m3u8
 
-#EXTINF:-1  tvg-id="&Flix HD" tvg-name="&Flix HD" tvg-logo="https://Lixk762.github.io/logo/.png" group-title="国际",[印度]&Flix HD/印度电影频道HD
+#EXTINF:-1  tvg-id="&Flix HD" tvg-name="&Flix HD" tvg-logo="https://Lixk762.github.io/logo/&flix_HD.png" group-title="国际",[印度]&Flix HD/印度电影频道HD
 http://89.187.177.137:8081/&FLIX/index.m3u8
 
 #EXTINF:-1  tvg-id="Wild Earth" tvg-name="Wild Earth" tvg-logo="https://Lixk762.github.io/" group-title="国际",Wild Earth/狂野地球
