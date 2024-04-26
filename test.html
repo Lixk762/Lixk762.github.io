@@ -1,73 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>测试网页</title>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: Arial, sans-serif;
-            background: #f4f4f4;
-        }
-        .container {
-            max-width: 1200px;
-            margin: auto;
-            overflow: hidden;
-            padding: 0 20px;
-        }
-        header, footer {
-            background: #333;
-            color: #fff;
-            text-align: center;
-            padding: 1em;
-        }
-        nav {
-            text-align: center;
-            padding: 1em;
-            background: #444;
-        }
-        nav a {
-            margin: 0 0.5em;
-            color: white;
-            text-decoration: none;
-        }
-        nav a:hover {
-            text-decoration: underline;
-        }
-        .content {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-        }
-        .content .text {
-            flex: 1;
-            min-width: 300px; /* Minimum width for the text column */
-            padding: 20px;
-            background: #fff;
-            margin: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        @media (max-width: 768px) {
-            .content {
-                flex-direction: column;
-            }
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Copy to Clipboard Example</title>
 </head>
 <body>
-    <header>
-        <h1>测试网页</h1>
-    </header>
-    
-    <div class="container">
-        <div class="content">
-            <div class="text">
-                <h2>欢迎来到我的测试网页</h2>
-                <p>测试测试测试</p>
-            </div>
-        </div>
-    </div>
+
+<!-- 按钮 -->
+<button id="copyButton">复制内容</button>
+
+<!-- 你想要复制的内容 -->
+<p id="copyText" style="display: none;">这里是你想要复制的内容</p>
+
+<script>
+// 获取按钮和要复制的文本
+const button = document.getElementById('copyButton');
+const copyText = document.getElementById('copyText');
+
+// 复制到剪贴板的函数
+function copyToClipboard(text) {
+  navigator.clipboard.writeText(text)
+    .then(() => {
+      console.log('内容已复制到剪贴板');
+    })
+    .catch(err => {
+      console.error('无法复制文本: ', err);
+    });
+}
+
+// 给按钮添加点击事件监听器
+button.addEventListener('click', () => {
+  copyToClipboard(copyText.textContent);
+});
+</script>
+
 </body>
 </html>
