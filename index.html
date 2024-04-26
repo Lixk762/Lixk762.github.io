@@ -25,22 +25,42 @@
 <body>
     <div class="container">
         <h1>IPTV电视直播发布页</h1>
-        <h3>▪中国电视直播源：</h3>
-        <p>https://Lixk762.github.io/m3u/China.txt</p>
-        <h3>▪国际电视直播源：</h3>
-        <p>https://Lixk762.github.io/m3u/International.txt</p>
-        <h3>▪国内外合并直播源：</h3>
-        <p>https://Lixk762.github.io/m3u/All.txt</p>
-        <div style="color: #e100ff;">TiviMate APP 可直接使用上面合并的直播源链接</div>
+        <h3>▪国内外电视直播源：</h3>
+        <button id="copyButton">获取地址</button>
+        <!-- 你想要复制的内容 -->
+        <p id="copyText" style="display: none;">https://Lixk762.github.io/m3u/All.txt</p> 
         <h3>▪安卓电视&安卓手机APK下载:</h3>
-        <a href="https://Lixk762.github.io/apk/TiviMate.apk" target="_blank">1.TiviMate </a>
+        <a href="https://Lixk762.github.io/apk/BrowseHere.apk" target="_blank">1.BrowseHere </a>
+        <div style="color: #000000;">电视使用先安装浏览器</div></BR></BR>       
+        <a href="https://Lixk762.github.io/apk/TiviMate.apk" target="_blank">2.TiviMate </a>
         <div style="color: #000000;">电视端APP首选TiviMate</div></BR></BR>      
-        <a href="https://Lixk762.github.io/apk/SJZB.apk" target="_blank">2.世界直播 App</a> 
+        <a href="https://Lixk762.github.io/apk/SJZB.apk" target="_blank">3.世界直播 App</a> 
         <div style="color: #000000;">手机端APP首选“世界直播”</div> 
         <h3>▪使用说明</h3>
-        <a href="https://Lixk762.github.io/manual.html" target="_blank">1.APP软件使用说明</a></br></br>
-        <a href="https://Lixk762.github.io/manual.html" target="_blank">2.直播源使用说明</a>
     </div>
+<script>
+// 获取按钮和要复制的文本
+const button = document.getElementById('copyButton');
+const copyText = document.getElementById('copyText');
+
+// 复制到剪贴板的函数
+function copyToClipboard(text) {
+  navigator.clipboard.writeText(text)
+    .then(() => {
+      console.log('内容已复制到剪贴板');
+    })
+    .catch(err => {
+      console.error('无法复制文本: ', err);
+    });
+}
+
+// 给按钮添加点击事件监听器
+button.addEventListener('click', () => {
+  copyToClipboard(copyText.textContent);
+});
+</script>
+
+   
 </body>
 </html>
 
