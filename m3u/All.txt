@@ -301,7 +301,7 @@ https://i.mjh.nz/SamsungTVPlus/USBC39000171G.m3u8
 https://i.mjh.nz/SamsungTVPlus/USBC4400010RH.m3u8
 
 #EXTINF:-1 tvg-id="Live Now Fox" tvg-name="Live Now Fox" tvg-logo="https://Lixk762.github.io/logo/LiveNowFox.jpg" group-title="国际",[美国]Live Now Fox/福克斯
-https://fox-foxnewsnow-samsungus.amagi.tv/playlist.m3u8news
+https://fox-foxnewsnow-samsungus.amagi.tv/playlist.m3u8
 
 #EXTINF:-1 tvg-id="NBC News Now" tvg-name="NBC News Now" tvg-logo="https://Lixk762.github.io/logo/NBC_news_now.jpg" group-title="国际",[美国]NBC News Now/全美广播
 https://i.mjh.nz/SamsungTVPlus/CAAJ2700011IF.m3u8
@@ -331,7 +331,7 @@ http://dminnvll.cdn.mangomolo.com/dubaione/smil:dubaione.stream.smil/chunklist_b
 http://live-hls-web-aje.getaj.net/AJE/01.m3u8
 
 #EXTINF:-1 tvg-id="NHK World" tvg-name="NHK World" tvg-logo="https://Lixk762.github.io/logo/NHK-World-TV.jpg" group-title="国际",[日本]NHK World Japan
-https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8tv
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
 
 #EXTINF:-1 tvg-id="Arirang" tvg-name="Arirang" tvg-logo="https://Lixk762.github.io/logo/Arirang_tv.jpg" group-title="国际",[韩国]Arirang/阿里郎 
 https://amdlive-ch01-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/chunklist_b3256000_sleng.m3u8
@@ -353,12 +353,6 @@ https://rt-glb.rttv.com/dvr/rtnews/playlist_4500Kb.m3u8
 
 #EXTINF:-1 tvg-id="RT News" tvg-name="RT News" tvg-logo="https://Lixk762.github.io/logo/TBS.png" group-title="国际",[美国]TBS/美国电视频道
 http://143.244.60.30/TBS/index.m3u8
-
-#EXTINF:-1 tvg-id="FXX" tvg-name="FXX" tvg-logo="https://Lixk762.github.io/logo/FXX.png" group-title="国际",[美国]FXX/美国基本有线
-http://livex.pop-app.live/s4n/poplive/ch523/playlist.m3u8
-
-#EXTINF:-1 tvg-id="A&E" tvg-name="A&E" tvg-logo="https://Lixk762.github.io/logo/A&E.png" group-title="国际",[美国]A&E/美国基本有线
-http://dns.clientetv.net:8080/sourceuxusaX2/bRsCaNup9Cb3/19404
 
 #EXTINF:-1 tvg-id="AMC" tvg-name="AMC" tvg-logo="https://Lixk762.github.io/logo/AMC.png" group-title="国际",[美国]AMC/美国娱乐
 http://170.254.18.106/AMC/index.m3u8
@@ -399,22 +393,13 @@ http://sansat.net:88/HhPRf2nAlsVeRU9/AnzgPldGC8OHsyY/96284
 #EXTINF:-1 tvg-id="Fashion TV" tvg-name="Fashion TV" tvg-logo="https://Lixk762.github.io/logo/Fashion_TV.png" group-title="国际",[法国]Fashion TV/时尚购物
 http://91.247.68.229:8000/play/Fashion/index.m3u8
 
-#EXTINF:-1 tvg-id="Fight Network" tvg-name="Fight Network" tvg-logo="https://Lixk762.github.io/logo/Fight_network.png" group-title="国际",[加拿大]Fight Network/格斗运动
+#EXTINF:-1 tvg-id="Fight Network" tvg-name="Fight Network" group-title="国际",[加拿大]Fight Network/格斗运动
 https://d12a2vxqkkh1bo.cloudfront.net/hls/1080p/playlist.m3u8
-
-#EXTINF:-1  tvg-id="Cinemax East" tvg-name="Cinemax East" tvg-logo="https://Lixk762.github.io/logo/Cinemax_east.png" group-title="国际",[美国]Cinemax East/美国经典电影
-http://dns.clientetv.net:8080/sourceuxusaX2/bRsCaNup9Cb3/10816
-
-#EXTINF:-1  tvg-id="HBO" tvg-name="HBO" tvg-logo="https://Lixk762.github.io/logo/HBO.png" group-title="国际",[美国]HBO/家庭电影频道
-http://170.254.18.106/HBO/index.m3u8
 
 #EXTINF:-1  tvg-id="HBO Plus" tvg-name="HBO Plus" tvg-logo="https://Lixk762.github.io/logo/HBO_Plus.png" group-title="国际",[美国]HBO Plus/家庭电影频道+
 http://170.254.18.106/HBO_PLUS/index.m3u8
 
-#EXTINF:-1  tvg-id="HBO West" tvg-name="HBO West" tvg-logo="https://Lixk762.github.io/logo/hbo_west.gif" group-title="国际",[美国]HBO West/西部家庭电影频道
-http://dns.clientetv.net:8080/sourceuxusaX2/bRsCaNup9Cb3/10849
-
-#EXTINF:-1  tvg-id="HBO2" tvg-name="HBO2" tvg-logo="https://Lixk762.github.io/logo/HBO2.png" group-title="国际",[美国]HBO2//家庭电影频道2 
+#EXTINF:-1  tvg-id="HBO2" tvg-name="HBO2" tvg-logo="https://Lixk762.github.io/logo/HBO2.png" group-title="国际",[美国]HBO2/家庭电影频道2 
 http://170.254.18.106/HBO2/index.m3u8
 
 #EXTINF:-1  tvg-id="HBO Family" tvg-name="HBO Family" tvg-logo="https://Lixk762.github.io/logo/HBO_Family.png" group-title="国际",[美国]HBO Family/家庭剧场
@@ -422,9 +407,6 @@ http://170.254.18.106/HBO_FAMILY/index.m3u8
 
 #EXTINF:-1  tvg-id="HBO Signature" tvg-name="HBO Signature" tvg-logo="https://Lixk762.github.io/logo/HBO_Signature.png" group-title="国际",[美国]HBO Signature/亚洲家庭电影频道
 http://170.254.18.106/HBO_SIG/index.m3u8
-
-#EXTINF:-1  tvg-id="&Flix HD" tvg-name="&Flix HD" tvg-logo="https://Lixk762.github.io/logo/&flix_HD.png" group-title="国际",[印度]&Flix HD/印度电影频道HD
-http://89.187.177.137:8081/&FLIX/index.m3u8
 
 #EXTINF:-1  tvg-id="Wild Earth" tvg-name="Wild Earth" tvg-logo="https://Lixk762.github.io/" group-title="国际",Wild Earth/狂野地球
 https://wildearth-plex.amagi.tv/masterR1080p.m3u8
@@ -453,7 +435,7 @@ http://170.254.18.106/HBO_XTREME/index.m3u8
 #EXTINF:-1  tvg-id="Cinemax" tvg-name="Cinemax" tvg-logo="https://Lixk762.github.io/logo/Cinemax.png" group-title="国际",[美国]Cinemax/经典电影
 http://170.254.18.106/CINEMAX/index.m3u8
 
-#EXTINF:-1  tvg-id="Rakuten Comedy" tvg-name="Rakuten Comedy" tvg-logo="https://Lixk762.github.io/logo/Rakuten.png" group-title="国际",[韩国]Rakuten Comedy/乐天戏剧
+#EXTINF:-1  tvg-id="Rakuten Comedy" tvg-name="Rakuten Comedy" tvg-logo="https://Lixk762.github.io/logo/Rakuten.png" group-title="国际",[韩国]Rakuten Comedy/乐天喜剧
 https://rakuten-comedymovies-1-eu.rakuten.wurl.tv/playlist.m3u8
 
 #EXTINF:-1  tvg-id="Rakuten Family" tvg-name="Rakuten Family" tvg-logo="https://Lixk762.github.io/logo/rakuten_family.jpeg" group-title="国际",[韩国]Rakuten Family/乐天家庭
@@ -461,9 +443,6 @@ https://rakuten-family-1-eu.rakuten.wurl.tv/playlist.m3u8
 
 #EXTINF:-1  tvg-id="Rakuten Action" tvg-name="Rakuten Action" tvg-logo="https://Lixk762.github.io/logo/rakuten_action.jpeg" group-title="国际",[韩国]Rakuten Action/乐天动作
 https://rakuten-actionmovies-1-eu.rakuten.wurl.tv/playlist.m3u8
-
-#EXTINF:-1  tvg-id="Sky Sport" tvg-name="Sky Sport" tvg-logo="https://Lixk762.github.io/logo/Sky_Sport.png" group-title="国际",Sky Sport/天空体育
-https://donelfantastic.github.io/live/skysportsNz8.m3u8
 
 #EXTINF:-1  tvg-id="Stadium" tvg-name="Stadium" tvg-logo="https://Lixk762.github.io/logo/stadium.webp" group-title="国际",Stadium/体育频道
 https://i.mjh.nz/SamsungTVPlus/USAJ3504705A.m3u8
