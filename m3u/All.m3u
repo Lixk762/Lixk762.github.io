@@ -1,5 +1,5 @@
 #EXTM3U x-tvg-
-url="https://epg.112114.xyz/pp.xml"
+url="https://epg.112114.xyz/pp.xml.gz"
 catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}"
 
 #EXTINF:-1 tvg-id="CCTV1" tvg-name="CCTV1" tvg-logo="https://live.fanmingming.com/tv/CCTV1.png" group-title="央视",CCTV-1[综合]  
