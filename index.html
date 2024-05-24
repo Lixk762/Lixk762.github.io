@@ -30,19 +30,14 @@
         <h3>B.导入国内外电视直播源：</h3>
         <p>将下述链接输入直播软件M3U选项中</p>
         <p>https://Lixk762.github.io/m3u/All.m3u</p><button id="copyButton">复制地址</button>
-
-        <p>https://Lixk762.github.io/m3u/china.m3u</p><button id="copyButton1">复制地址china2</button>
         <!-- 你想要复制的内容 -->
         <p id="copyText" style="display: none;">https://Lixk762.github.io/m3u/All.m3u</p> 
-        <p id="copyText1" style="display: none;">https://Lixk762.github.io/m3u/china.m3u</p> 
         <h3>▪直播软件操作说明</h3>
     </div>
 <script>
 // 获取按钮和要复制的文本
 const button = document.getElementById('copyButton');
 const copyText = document.getElementById('copyText');
-const button1 = document.getElementById('copyButton1');
-const copyText1 = document.getElementById('copyText1');
 // 复制到剪贴板的函数
 function copyToClipboard(text) {
   navigator.clipboard.writeText(text)
