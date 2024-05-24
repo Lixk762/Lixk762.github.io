@@ -1,5 +1,5 @@
 #EXTM3U x-tvg-
-url="https://mirror.ghroxy.com/https://raw.githubusercontent.com/meroser/epg-test/main/tvxml-test.xml.gz"
+url="https://epg.112114.xyz/pp.xml"
 catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}"
 
 #EXTINF:-1 tvg-id="CNN" tvg-name="CNN" tvg-logo="https://Lixk762.github.io/logo/CNN.jpg" group-title="国际",[美国]CNN/美国有线新闻
