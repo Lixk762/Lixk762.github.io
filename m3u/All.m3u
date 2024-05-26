@@ -282,10 +282,10 @@ http://[2409:8087:1a0b:df::4005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225742/index.m3u8
 
 
-#EXTINF:-1 group-title="台湾",大立電視
+#EXTINF:-1 group-title="台湾",大立音乐
 http://www.dalitv.com.tw:4568/live/dali/index.m3u8
 
-#EXTINF:-1 group-title="台湾",中视新闻HD http://cloud-play.hhalloy.com/live/a4aa25e01a432729323f4d0778605887.m3u8
+#EXTINF:-1 group-title="台湾",中视新闻HD http://cloud-play.hhalloy.com/live/cf4d66edc142b2f0cc8c71bca56b2268.m3u8
 
 #EXTINF:-1 tvg-id="CNN" tvg-name="CNN" tvg-logo="https://Lixk762.github.io/logo/CNN.jpg" group-title="国际",[美国]CNN/美国有线新闻
 https://i.mjh.nz/SamsungTVPlus/GBBD8000016N.m3u8
