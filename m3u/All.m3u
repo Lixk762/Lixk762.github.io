@@ -294,6 +294,9 @@ http://[2409:8087:1a0b:df::4005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/
 #EXTINF:-1 tvg-id="newtv欢乐剧场" tvg-name="newtv欢乐剧场" tvg-logo="https://live.fanmingming.com/tv/NEWTV欢乐剧场.png" group-title="数字",欢乐剧场
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225742/index.m3u8
 
+#EXTINF:-1 group-title="数字",荒野建造者
+http://43.138.170.29:35455/douyu/9611578
+
 #EXTINF:-1 group-title="TW",TVBS亞洲
 http://38.64.72.148:80/hls/modn/list/4005/chunklist0.m3u8
 
@@ -302,6 +305,12 @@ http://38.64.72.148:80/hls/modn/list/2013/chunklist1.m3u8
 
 #EXTINF:-1 group-title="TW",东森新闻美洲
 http://38.64.72.148:80/hls/modn/list/2015/chunklist1.m3u8
+
+#EXTINF:-1 group-title="TW",东森财经
+http://livetv.skycf.eu.org:80/live.m3u8?c=14
+
+#EXTINF:-1 group-title="TW",中天新闻
+http://livetv.skycf.eu.org:80/live.m3u8?c=7
 
 #EXTINF:-1 group-title="TW",民视新闻
 http://38.64.72.148/hls/modn/list/4012/chunklist1.m3u8
