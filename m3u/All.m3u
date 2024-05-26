@@ -202,6 +202,22 @@ http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN6380764b172c9/index.m
 http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN63807601b19dd/index.m3u8?AuthInfo=9kOOdBn7MFF%2F2bWjKgahUTrwI%2B%2BngB0lPRofcD8hTNRxu2SqX2RKsLT0S7AyQ8XopIVrD6IJGxdajeuKy4iZqZ4tkZuiEpwSRPszF6PIvg4
 #EXTINF:-1 tvg-id="CHC3" tvg-name="CHC动作电影" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/CHC3.png" group-title="数字",CHC动作电影
 http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN6380763222d00/index.m3u8?AuthInfo=9kOOdBn7MFF%2F2bWjKgahUTrwI%2B%2BngB0lPRofcD8hTNSXQZMUEnZPBI3Y%2BI8ABE4PJC%2B6OvlZZw5ubC%2FbrIdxFJJY1CcAGU%2BYDDQV9oJ%2FVqQ
+
+#EXTINF:-1 tvg-id="静态4K测试" tvg-name="静态4K测试" group-title="数字",静态4K测试
+https://d2dw21aq0j0l5c.cloudfront.net/playlist_3840x2160.m3u8
+
+#EXTINF:-1 tvg-id="4k记录欧洲" tvg-name="4k记录欧洲" group-title="数字",4k记录欧洲
+https://d18dyiwu97wm6q.cloudfront.net/playlist2160p.m3u8
+
+#EXTINF:-1 tvg-id="斗鱼4K电影" tvg-name="斗鱼4K电影" group-title="数字",斗鱼4K电影
+http://159.75.85.63:35455/douyu/9249162
+
+#EXTINF:-1 tvg-id="南国都市4k" tvg-name="南国都市4k" group-title="数字",南国都市4k
+https://justsometime.gztv.com/sec/shenghuos.m3u8
+
+#EXTINF:-1 tvg-id="苏州4K频道" tvg-name="苏州4K频道" group-title="数字",苏州4K频道
+http://liveshowbak2.kan0512.com/ksz-norecord/csztv4k_4k.m3u8
+
 #EXTINF:-1 tvg-name="魅力足球" group-title="数字",魅力足球
 http://221.198.174.113:8888/rtp/225.1.1.137:5002
 #EXTINF:-1 tvg-id="乐游" tvg-name="乐游" tvg-logo="https://epg.112114.xyz/logo/乐游.png" group-title="数字",乐游频道
@@ -297,17 +313,25 @@ http://38.64.72.148:80/hls/modn/list/2013/chunklist1.m3u8
 #EXTINF:-1 group-title="台湾",民视新闻 HD
 http://38.64.72.148/hls/modn/list/4012/chunklist1.m3u8
 
+#EXTINF:-1 group-title="台湾",台视新闻 HD
+http://38.64.72.148:80/hls/modn/list/4013/chunklist1.m3u8
+
+#EXTINF:-1 group-title="台湾",东森新闻美洲
+http://38.64.72.148:80/hls/modn/list/2015/chunklist0.m3u8
+
 #EXTINF:-1 group-title="台湾",人间卫视
 http://61.216.67.119:1935/bltvhd/bltv1/chunklist_w1266569526.m3u
-
-#EXTINF:-1 group-title="台湾",台视新闻 HD
-http://38.64.72.148:80/hls/modn/list/4013/chunklist0.m3u8
 
 #EXTINF:-1 group-title="台湾",國會頻道
 http://61.58.60.230:9319/live/123.m3u8
 
 #EXTINF:-1 group-title="台湾",世新綜合
 http://61.58.60.230:9319/live/49.m3u8
+
+#EXTINF:-1 group-title="台湾",华语电视
+http://38.64.72.148:80/hls/modn/list/4003/chunklist0.m3u8
+
+
 
 #EXTINF:-1 tvg-id="CNN" tvg-name="CNN" tvg-logo="https://Lixk762.github.io/logo/CNN.jpg" group-title="国际",[美国]CNN/美国有线新闻
 https://i.mjh.nz/SamsungTVPlus/GBBD8000016N.m3u8
