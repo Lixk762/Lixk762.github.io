@@ -294,34 +294,34 @@ http://[2409:8087:1a0b:df::4005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/
 #EXTINF:-1 tvg-id="newtv欢乐剧场" tvg-name="newtv欢乐剧场" tvg-logo="https://live.fanmingming.com/tv/NEWTV欢乐剧场.png" group-title="数字",欢乐剧场
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225742/index.m3u8
 
-#EXTINF:-1 group-title="台湾",TVBS亞洲
+#EXTINF:-1 group-title="TW",TVBS亞洲
 http://38.64.72.148:80/hls/modn/list/4005/chunklist0.m3u8
 
-#EXTINF:-1 group-title="台湾",东森超视34.5
+#EXTINF:-1 group-title="TW",东森超视34.5
 http://38.64.72.148:80/hls/modn/list/2013/chunklist1.m3u8
 
-#EXTINF:-1 group-title="台湾",民视新闻 HD
+#EXTINF:-1 group-title="TW",民视新闻 HD
 http://38.64.72.148/hls/modn/list/4012/chunklist1.m3u8
 
-#EXTINF:-1 group-title="台湾",台视新闻 HD
+#EXTINF:-1 group-title="TW",台视新闻 HD
 http://38.64.72.148:80/hls/modn/list/4013/chunklist1.m3u8
 
-#EXTINF:-1 group-title="台湾",东森新闻美洲
+#EXTINF:-1 group-title="TW",东森新闻美洲
 http://38.64.72.148:80/hls/modn/list/2015/chunklist1.m3u8
 
-#EXTINF:-1 group-title="台湾",人间卫视
+#EXTINF:-1 group-title="TW",人间卫视
 http://61.216.67.119:1935/bltvhd/bltv1/chunklist_w1266569526.m3u
 
-#EXTINF:-1 group-title="台湾",國會頻道
+#EXTINF:-1 group-title="TW",國會頻道
 http://61.58.60.230:9319/live/123.m3u8
 
-#EXTINF:-1 group-title="台湾",世新綜合
+#EXTINF:-1 group-title="TW",世新綜合
 http://61.58.60.230:9319/live/49.m3u8
 
-#EXTINF:-1 group-title="台湾",华语电视
+#EXTINF:-1 group-title="TW",华语电视
 http://38.64.72.148:80/hls/modn/list/4003/chunklist0.m3u8
 
-#EXTINF:-1 group-title="台湾",大立音乐
+#EXTINF:-1 group-title="TW",大立音乐
 http://www.dalitv.com.tw:4568/live/dali/index.m3u8
 
 
