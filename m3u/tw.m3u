@@ -1,86 +1,32 @@
 #EXTM3U
-#EXTINF:-1 group-title="澳门频道,#genre#",澳门莲花
-http://107.151.203.111:2209/135/hk.php?id=amlh
-#EXTINF:-1 group-title="台湾频道,#genre#",TVBS新闻
-http://38.64.72.148/hls/modn/list/4006/chunklist0.m3u8
-#EXTINF:-1 group-title="台湾频道,#genre#",TVBS新闻
-http://38.64.72.148/hls/modn/list/4006/chunklist1.m3u8
-#EXTINF:-1 group-title="台湾频道,#genre#",TVBS新闻
-http://38.64.72.148/hls/modn/list/4006/playlist.m3u8
-#EXTINF:-1 group-title="台湾频道,#genre#",TVBS新闻
-http://38.64.72.148:80/hls/modn/list/4006/chunklist0.m3u8
-#EXTINF:-1 group-title="台湾频道,#genre#",TVBS新闻
-http://38.64.72.148:80/hls/modn/list/4006/chunklist1.m3u8
-#EXTINF:-1 group-title="台湾频道,#genre#",TVBS亞洲
-http://38.64.72.148:80/hls/modn/list/4005/playlist.m3u8
-#EXTINF:-1 group-title="台湾频道,#genre#",TVBS亞洲
+
+#EXTINF:-1 group-title="台湾频道,TVBS亞洲
 http://38.64.72.148:80/hls/modn/list/4005/chunklist0.m3u8
-#EXTINF:-1 group-title="台湾频道,#genre#",TVBS亞洲
-http://38.64.72.148:80/hls/modn/list/4005/chunklist1.m3u8
-#EXTINF:-1 group-title="台湾频道,#genre#",大立電视
+
+#EXTINF:-1 group-title="台湾频道,大立電视
 http://www.dalitv.com.tw:4568/live/dali/index.m3u8
-#EXTINF:-1 group-title="台湾频道,#genre#",东森超视34.5
+
+#EXTINF:-1 group-title="台湾频道,东森超视34.5
 http://38.64.72.148:80/hls/modn/list/2013/chunklist1.m3u8
-#EXTINF:-1 group-title="台湾频道,#genre#",民视新闻 HD
-http://38.64.72.148:80/hls/modn/list/4012/chunklist0.m3u8
-#EXTINF:-1 group-title="台湾频道,#genre#",民视新闻 HD
-http://38.64.72.148:80/hls/modn/list/4012/chunklist1.m3u8
-#EXTINF:-1 group-title="台湾频道,#genre#",民视新闻 HD
-http://38.64.72.148/hls/modn/list/4012/chunklist0.m3u8
-#EXTINF:-1 group-title="台湾频道,#genre#",民视新闻 HD
+
+#EXTINF:-1 group-title="台湾频道,民视新闻 HD
 http://38.64.72.148/hls/modn/list/4012/chunklist1.m3u8
-#EXTINF:-1 group-title="台湾频道,#genre#",民视新闻 HD
-http://38.64.72.148/hls/modn/list/4012/playlist.m3u8
-#EXTINF:-1 group-title="台湾频道,#genre#",人间卫视
+
+#EXTINF:-1 group-title="台湾频道,人间卫视
 http://61.216.67.119:1935/bltvhd/bltv1/chunklist_w1266569526.m3u
-#EXTINF:-1 group-title="台湾频道,#genre#",人间卫视
-http://61.216.67.119:1935/bltvhd/bltv1/chunklist_w1266569526.m3u8
-#EXTINF:-1 group-title="台湾频道,#genre#",人间卫视
-https://5ddce30eb4b55.streamlock.net/bltvhd/bltv1/playlist.m3u8
-#EXTINF:-1 group-title="台湾频道,#genre#",人间卫视
-https://5ddce30eb4b55.streamlock.net/bltvhd/bltv1/chunklist_w511254805.m3u8
-#EXTINF:-1 group-title="台湾频道,#genre#",時尚台FTV
-http://80.94.54.42/fashiontv/stream/playlist.m3u8
-#EXTINF:-1 group-title="台湾频道,#genre#",時尚台FTV
-http://lb.streaming.sk/fashiontv/stream/chunklist.m3u8
-#EXTINF:-1 group-title="台湾频道,#genre#",時尚台FTV
-http://lb.streaming.sk/fashiontv/stream/chunklist_w1702070444.m3u8
-#EXTINF:-1 group-title="台湾频道,#genre#",台视新闻 HD
+
+#EXTINF:-1 group-title="台湾频道,台视新闻 HD
 http://38.64.72.148:80/hls/modn/list/4013/chunklist0.m3u8
-#EXTINF:-1 group-title="台湾频道,#genre#",台视新闻 HD
-http://38.64.72.148:80/hls/modn/list/4013/chunklist1.m3u8
-#EXTINF:-1 group-title="台湾频道,#genre#",台视新闻 HD
-http://38.64.72.148/hls/modn/list/4013/chunklist0.m3u8
-#EXTINF:-1 group-title="台湾频道,#genre#",台视新闻 HD
-http://38.64.72.148/hls/modn/list/4013/chunklist1.m3u8
-#EXTINF:-1 group-title="台湾频道,#genre#",台视新闻 HD
-http://38.64.72.148/hls/modn/list/4013/playlist.m3u8
-#EXTINF:-1 group-title="台湾频道,#genre#",台湾番薯台
-http://61.216.67.119:1935/TWHG/E1/chunklist_w70581102.m3u8
-#EXTINF:-1 group-title="台湾频道,#genre#",台湾番薯台
-http://61.216.67.119:1935/TWHG/E1/chunklist_w7058102.m3u8
-#EXTINF:-1 group-title="台湾频道,#genre#",台湾番薯台
-http://61.216.67.119:1935/TWHG/E1/chunklist_w705811302.m3u8
-#EXTINF:-1 group-title="台湾频道,#genre#",唯心電视
-http://mobile.ccdntech.com/transcoder/_definst_/vod164_Live/live/chunklist_w1177047531.m3u8
-#EXTINF:-1 group-title="台湾频道,#genre#",唯心電视
-http://mobile.ccdntech.com/transcoder/_definst_/vod164_Live/live/playlist.m3u8
-#EXTINF:-1 group-title="台湾频道,#genre#",香港佛陀
-http://js1.amtb.cn/liveedge/_definst_/livetv/chunklist.m3u8
-#EXTINF:-1 group-title="台湾频道,#genre#",香港佛陀
-https://js1.amtb.cn/liveedge/_definst_/livetv/playlist.m3u8
-#EXTINF:-1 group-title="台湾频道,#genre#",國會頻道1
+
+#EXTINF:-1 group-title="台湾频道,國會頻道
 http://61.58.60.230:9319/live/123.m3u8
-#EXTINF:-1 group-title="台湾频道,#genre#",世新綜合
+
+#EXTINF:-1 group-title="台湾频道,世新綜合
 http://61.58.60.230:9319/live/49.m3u8
-#EXTINF:-1 group-title="台湾频道,#genre#",生命電視台
-http://211.73.19.201/live/AB167E56-808C-81D4-6471-76DC400D5192.m3u8?fmt=x264_1200K_ts&cpid=admin&size=1920X1080
-#EXTINF:-1 group-title="台湾频道,#genre#",TVBS亚洲
-http://38.64.72.148/hls/modn/list/4005/playlist.m3u8
-#EXTINF:-1 group-title="台湾频道,#genre#",Sexy K-Pop
-https://srv1.zcast.com.br/kpoptv/kpoptv/.m3u8
-#EXTINF:-1 group-title="台湾频道,#genre#",Sexy K-Pop
-https://srv1.zcast.com.br/kpoptv/kpoptv/playlist.m3u8
+
+
+
+
 #EXTINF:-1 group-title="中国频道,#genre#",CCTV1
 http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225804/index.m3u8
 #EXTINF:-1 group-title="中国频道,#genre#",CCTV1
