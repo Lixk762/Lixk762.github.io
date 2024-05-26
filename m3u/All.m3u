@@ -309,9 +309,9 @@ http://38.64.72.148/hls/modn/list/4012/chunklist1.m3u8
 #EXTINF:-1 group-title="TW",台视新闻
 http://38.64.72.148:80/hls/modn/list/4013/chunklist1.m3u8
 
-#EXTINF:-1 group-title="TW",中视新闻
+#EXTINF:-1 group-title="TW",公视新闻
 
-https://ytm2.yuanhsing.cf/twctvnews.m3u8
+http://livetv.skycf.eu.org:80/live.m3u8?c=8
 
 #EXTINF:-1 group-title="TW",人间卫视
 http://61.216.67.119:1935/bltvhd/bltv1/chunklist_w1266569526.m3u
