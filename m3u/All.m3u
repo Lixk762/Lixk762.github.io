@@ -314,7 +314,7 @@ http://38.64.72.148/hls/modn/list/4012/chunklist1.m3u8
 http://38.64.72.148:80/hls/modn/list/4013/chunklist1.m3u8
 
 #EXTINF:-1 group-title="台湾",东森新闻美洲
-http://38.64.72.148:80/hls/modn/list/2015/chunklist0.m3u8
+http://38.64.72.148:80/hls/modn/list/2015/chunklist1.m3u8
 
 #EXTINF:-1 group-title="台湾",人间卫视
 http://61.216.67.119:1935/bltvhd/bltv1/chunklist_w1266569526.m3u
