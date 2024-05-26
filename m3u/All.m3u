@@ -306,6 +306,10 @@ http://38.64.72.148/hls/modn/list/4012/chunklist1.m3u8
 #EXTINF:-1 group-title="TW",台视新闻 HD
 http://38.64.72.148:80/hls/modn/list/4013/chunklist1.m3u8
 
+
+#EXTINF:-1 group-title="TW",中天综合 
+http://www.336699.live:1935/blocksix/4gtv-live033.stream/chunklist.m3u8
+
 #EXTINF:-1 group-title="TW",东森新闻美洲
 http://38.64.72.148:80/hls/modn/list/2015/chunklist1.m3u8
 
