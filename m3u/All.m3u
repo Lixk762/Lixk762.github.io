@@ -212,9 +212,6 @@ https://d18dyiwu97wm6q.cloudfront.net/playlist2160p.m3u8
 #EXTINF:-1 tvg-id="斗鱼4K电影" tvg-name="斗鱼4K电影" group-title="数字",斗鱼4K电影
 http://159.75.85.63:35455/douyu/9249162
 
-#EXTINF:-1 tvg-id="南国都市4k" tvg-name="南国都市4k" group-title="数字",南国都市4k
-https://justsometime.gztv.com/sec/shenghuos.m3u8
-
 #EXTINF:-1 tvg-id="苏州4K频道" tvg-name="苏州4K频道" group-title="数字",苏州4K频道
 http://liveshowbak2.kan0512.com/ksz-norecord/csztv4k_4k.m3u8
 
