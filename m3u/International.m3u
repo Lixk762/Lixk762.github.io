@@ -150,4 +150,77 @@ http://170.254.18.106/HBO_XTREME/index.m3u8
 #EXTINF:-1  tvg-id="Cinemax" tvg-name="Cinemax" tvg-logo="https://Lixk762.github.io/logo/Cinemax.png" group-title="国际",[美国]Cinemax/经典电影
 http://170.254.18.106/CINEMAX/index.m3u8
 
-#EXTINF:-1  tvg-id="Rakuten Come
+#EXTINF:-1  tvg-id="Rakuten Comedy" tvg-name="Rakuten Comedy" tvg-logo="https://Lixk762.github.io/logo/Rakuten.png" group-title="国际",[韩国]Rakuten Comedy/乐天喜剧
+https://rakuten-comedymovies-1-eu.rakuten.wurl.tv/playlist.m3u8
+
+#EXTINF:-1  tvg-id="Rakuten Family" tvg-name="Rakuten Family" tvg-logo="https://Lixk762.github.io/logo/rakuten_family.jpeg" group-title="国际",[韩国]Rakuten Family/乐天家庭
+https://rakuten-family-1-eu.rakuten.wurl.tv/playlist.m3u8
+
+#EXTINF:-1  tvg-id="Rakuten Action" tvg-name="Rakuten Action" tvg-logo="https://Lixk762.github.io/logo/rakuten_action.jpeg" group-title="国际",[韩国]Rakuten Action/乐天动作
+https://rakuten-actionmovies-1-eu.rakuten.wurl.tv/playlist.m3u8
+
+#EXTINF:-1  tvg-id="Stadium" tvg-name="Stadium" tvg-logo="https://Lixk762.github.io/logo/stadium.webp" group-title="国际",Stadium/体育频道
+https://i.mjh.nz/SamsungTVPlus/USAJ3504705A.m3u8
+
+#EXTINF:-1  tvg-id="FIFA+" tvg-name="FIFA+" tvg-logo="https://Lixk762.github.io/logo/fifa_plus.png" group-title="国际",FIFA+//国际足联
+https://i.mjh.nz/SamsungTVPlus/USBD12000255B.m3u8
+
+#EXTINF:-1  tvg-id="Trace Sports" tvg-name="Trace Sports" tvg-logo="https://Lixk762.github.io/logo/TraceSportS.png" group-title="国际",Trace Sports/运动明星揭秘
+https://lightning-tracesport-samsungau.amagi.tv/playlist1080p.m3u8
+
+#EXTINF:-1  tvg-id="BBC Earth" tvg-name="BBC Earth" tvg-logo="https://Lixk762.github.io/logo/BBC_Earth.png" group-title="国际",[英国]BBC Earth/BBC地球
+https://i.mjh.nz/SamsungTVPlus/USBD1700001RW.m3u8
+
+#EXTINF:-1  tvg-id="BBC Food" tvg-name="BBC Food" tvg-logo="https://Lixk762.github.io/logo/BBC_Food.png" group-title="国际",[英国]BBC Food/BBC美食
+https://i.mjh.nz/SamsungTVPlus/USBC6000108Z.m3u8
+
+#EXTINF:-1  tvg-id="BBC Home" tvg-name="BBC Home" tvg-logo="https://Lixk762.github.io/logo/BBC_Home.png" group-title="国际",[英国]BBC Home/BBC家庭
+https://i.mjh.nz/SamsungTVPlus/USBC600017FG.m3u8
+
+#EXTINF:-1  tvg-id="NBA TV" tvg-name="NBA TV" tvg-logo="https://Lixk762.github.io/logo/NBA_TV.png" group-title="国际",[美国]NBA TV/NBA篮球
+http://streamsy.online:2999/coachj88/N93DPKS9pJ/136
+
+#EXTINF:-1  tvg-id="Universal Kids" tvg-name="Universal Kids" tvg-logo="https://Lixk762.github.io/logo/Universal_Kids.png" group-title="国际",Universal Kids/环球儿童
+http://streamsy.online:2999/coachj88/N93DPKS9pJ/252
+
+#EXTINF:-1  tvg-id="Nat Geo" tvg-name="Nat Geo" tvg-logo="https://Lixk762.github.io/logo/nat_geo.png" group-title="国际",Nat Geo/国家地理
+http://streamsy.online:2999/coachj88/N93DPKS9pJ/141
+
+#EXTINF:-1  tvg-id="NASA" tvg-name="NASA" tvg-logo="https://Lixk762.github.io/logo/NASA.png" group-title="国际",[美国]NASA/美国宇航局
+https://ntv1.akamaized.net:443/hls/live/2014075/NASA-NTV1-HLS/master_2000.m3u8?
+
+#EXTINF:-1  tvg-id="Start TV" tvg-name="Start TV" tvg-logo="https://Lixk762.github.io/logo/startTv.jpg" group-title="国际",Start TV/星空传媒
+http://streamsy.online:2999/coachj88/N93DPKS9pJ/1467
+
+#EXTINF:-1  tvg-id="Weather" tvg-name="Weather" tvg-logo="https://Lixk762.github.io/logo/theWeatherChannel.png" group-title="国际",The Weather Channel/天气预报
+http://streamsy.online:2999/coachj88/N93DPKS9pJ/301
+
+#EXTINF:-1  tvg-id="Pop" tvg-name="Pop" tvg-logo="https://Lixk762.github.io/logo/Pop.png" group-title="国际",Pop
+http://streamsy.online:2999/coachj88/N93DPKS9pJ/226
+
+#EXTINF:-1  tvg-id="WE TV" tvg-name="WE TV" tvg-logo="https://Lixk762.github.io/logo/We_TV.png" group-title="国际",WE TV
+http://streamsy.online:2999/coachj88/N93DPKS9pJ/247
+
+#EXTINF:-1  tvg-id="Me TV" tvg-name="Me TV" tvg-logo="https://Lixk762.github.io/logo/MeTV_Logo.png" group-title="国际",Me TV
+http://streamsy.online:2999/coachj88/N93DPKS9pJ/744
+
+#EXTINF:-1  tvg-id="Sony" tvg-name="Sony" tvg-logo="https://Lixk762.github.io/logo/SNY.png" group-title="国际",[日本]Sony/索尼
+http://streamsy.online:2999/coachj88/N93DPKS9pJ/330
+
+#EXTINF:-1  tvg-id="Documentary+" tvg-name="Documentary+" tvg-logo="https://Lixk762.github.io/logo/Doc_plus.png" group-title="国际",Documentary+/纪录片+
+https://i.mjh.nz/SamsungTVPlus/CABC2300019UD.m3u8
+
+#EXTINF:-1  tvg-id="Tastemade" tvg-name="Tastemade" tvg-logo="https://Lixk762.github.io/logo/tastemade.png" group-title="国际",Tastemade/旅游美食
+https://i.mjh.nz/SamsungTVPlus/CABD1200002T9.m3u8
+
+#EXTINF:-1  tvg-id="MovieSphere" tvg-name="MovieSphere" tvg-logo="https://Lixk762.github.io/logo/movieSphere.jpeg" group-title="国际",MovieSphere/电影直播
+https://i.mjh.nz/SamsungTVPlus/USBD17000117B.m3u8
+
+#EXTINF:-1  tvg-id="The Guardian" tvg-name="The Guardian" tvg-logo="https://Lixk762.github.io/logo/The_Guardian.png" group-title="国际",The Guardian/英国日报
+https://i.mjh.nz/SamsungTVPlus/GBAJ2400003DD.m3u8
+
+#EXTINF:-1  tvg-id="Travelxp" tvg-name="Travelxp" tvg-logo="https://Lixk762.github.io/" group-title="国际",Travelxp/高清旅游
+https://i.mjh.nz/SamsungTVPlus/ATBA1000005P4.m3u8
+
+#EXTINF:-1  tvg-id="Lego" tvg-name="Lego" tvg-logo="https://Lixk762.github.io/logo/lego.png" group-title="国际",The Lego Channel/乐高频道
+https://i.mjh.nz/SamsungTVPlus/GBBC4300005AL.m3u8
