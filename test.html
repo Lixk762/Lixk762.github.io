@@ -1,12 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Copy to Clipboard Example</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>实时时钟</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        #clock {
+            font-size: 48px;
+        }
+    </style>
 </head>
 <body>
+    <div id="clock"></div>
 
-  
+    <script>
+        function updateClock() {
+            var now = new Date();
+            var hours = String(now.getHours()).padStart(2, '0');
+            var minutes = String(now.getMinutes()).padStart(2, '0');
+            var seconds = String(now.getSeconds()).padStart(2, '0');
+            var timeString = hours + ':' + minutes + ':' + seconds;
+
+            document.getElementById('clock').textContent = timeString;
+
+            // 更新时间，1000毫秒（1秒）后再次执行
+            setTimeout(updateClock, 1000);
+        }
+
+        // 页面加载时执行更新时间函数
+        window.onload = updateClock;
+    </script>
 </body>
 </html>
