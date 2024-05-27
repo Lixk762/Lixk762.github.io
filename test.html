@@ -86,7 +86,7 @@
 
             var dateString = year + '-' + month + '-' + day;
 
-            document.getElementById('dateDisplay'+'更新').textContent = dateString;
+            document.getElementById('dateDisplay').textContent = dateString;
 
             // 更新日期，86400000毫秒（1天）后再次执行
             setTimeout(updateDate, 86400000);
