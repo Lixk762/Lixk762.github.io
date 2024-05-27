@@ -299,11 +299,20 @@ http://43.138.170.29:35455/douyu/9611578
 #EXTINF:-1 group-title="TW",中天新闻
 http://livetv.skycf.eu.org:80/live.m3u8?c=7
 
+#EXTINF:-1 group-title="TW",中天新闻[线路2]
+http://livetv.skycf.eu.org:80/live.m3u8?c=8
+
 #EXTINF:-1 group-title="TW",民视新闻
 http://38.64.72.148/hls/modn/list/4012/chunklist1.m3u8
 
+#EXTINF:-1 group-title="TW",民视新闻[线路2]
+http://38.64.72.148/hls/modn/list/4012/chunklist0.m3u8
+
 #EXTINF:-1 group-title="TW",台视新闻
 http://38.64.72.148:80/hls/modn/list/4013/chunklist1.m3u8
+
+#EXTINF:-1 group-title="TW",台视新闻[线路2]
+http://38.64.72.148:80/hls/modn/list/4013/chunklist0.m3u8
 
 #EXTINF:-1 group-title="TW",公视新闻
 http://livetv.skycf.eu.org:80/live.m3u8?c=8
