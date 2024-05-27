@@ -3,86 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>实时日期和时间</title>
+    <title>自动更新的日期</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
             margin: 0;
+            padding-top: 50px; /* 为日期留出空间 */
         }
-        #datetime {
-            font-size: 48px;
+        .date-header {
+            background-color: #f8f9fa;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            text-align: center;
+            padding: 10px 0;
+            font-size: 24px;
         }
     </style>
 </head>
 <body>
-
-
-    <div class="container">
-        <h1>IPTV Live Index-2024.05.28更新</h1>
-
-<h3>▪直播软件操作说明</h3>
-<a href="https://www.test-ipv6.com/" target="_blank">当前IPv6网络测试</a><p>点击链接测试当前上网环境是否支持IPTV网络直播，如测试不通过需要打开路由器IPv6功能并重启宽带猫</p>
-
-        <h3>A.先在安卓电视或手机安装IPTV配套APK:</h3>
-        <p>电视端IPTV直播软件:</p>
-        <a href="https://Lixk762.github.io/apk/TiviMate.apk" target="_blank">1.TiviMate_最新免费版</a></BR></BR>
-        <a href="https://Lixk762.github.io/apk/TiviMate_Premium215.apk" target="_blank">2.TiviMate_Premium付费解锁版215</a></BR></BR>      
-        <a href="https://Lixk762.github.io/apk/TiviMate275.apk" target="_blank">3.TiviMate_Premium付费解锁版275</a></BR></BR>
-        <a href="https://Lixk762.github.io/apk/TiviMate_Premium280.apk" target="_blank">4.TiviMate_Premium付费解锁版280</a>
-        <h3>B.导入国内电视M3U直播源：</h3>
-        <p>1.将下面的链接输入到Tivimate软件的节目列表源地址选项中</p>
-        <p>1.1 国内电视直播链接</p>
-        <p>https://Lixk762.github.io/m3u/China.m3u</p><button id="copyButton">复制地址</button>
-        <p>2.将下面EPG电子节目预告单链接输入到Tivimate软件的EPG源地址选项中：</p>
-        <p>http://epg.51zmt.top:8000/e.xml</p>
-        <!-- 你想要复制的内容 -->
-        <p id="copyText" style="display: none;">https://Lixk762.github.io/m3u/China.m3u</p> 
-
-    </div>
-<script>
-// 获取按钮和要复制的文本
-const button = document.getElementById('copyButton');
-const copyText = document.getElementById('copyText');
-// 复制到剪贴板的函数
-function copyToClipboard(text) {
-  navigator.clipboard.writeText(text)
-    .then(() => {
-      console.log('内容已复制到剪贴板');
-    })
-    .catch(err => {
-      console.error('无法复制文本: ', err);
-    });
-}
-
-// 给按钮添加点击事件监听器
-button.addEventListener('click', () => {
-  copyToClipboard(copyText.textContent);
-});
-</script>
-    <div id="datetime"></div>
+    <div class="date-header" id="dateDisplay"></div>
 
     <script>
-        function updateDateTime() {
+        function updateDate() {
             var now = new Date();
             var year = now.getFullYear();
-            var month = now.getMonth() + 1; // getMonth() 返回的月份是从0开始的
-            var day = now.getDate();
+            var month = (now.getMonth() + 1).toString().padStart(2, '0'); // 月份从1开始，需要+1
+            var day = now.getDate().toString().padStart(2, '0'); // 确保日期是两位数
 
-            // 格式化时间显示
-            var formattedDate = [year, month, day].map(formatTime).join('/');
+            var dateString = year + '-' + month + '-' + day;
 
-            var dateTimeString = formattedDate;
+            document.getElementById('dateDisplay').textContent = dateString;
 
-            document.getElementById('datetime').textContent = dateTimeString;
-
+            // 更新日期，86400000毫秒（1天）后再次执行
+            setTimeout(updateDate, 86400000);
         }
 
-        // 页面加载时执行更新日期和时间函数
-        window.onload = updateDateTime;
+        // 页面加载时执行更新日期函数
+        window.onload = updateDate;
     </script>
 </body>
 </html>
