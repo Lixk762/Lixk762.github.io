@@ -71,25 +71,14 @@ button.addEventListener('click', () => {
             var year = now.getFullYear();
             var month = now.getMonth() + 1; // getMonth() 返回的月份是从0开始的
             var day = now.getDate();
-            var hours = now.getHours();
-            var minutes = now.getMinutes();
-            var seconds = now.getSeconds();
 
             // 格式化时间显示
-            var formattedDate = [year, month, day].map(formatTime).join('-');
-            var formattedTime = [hours, minutes, seconds].map(formatTime).join(':');
+            var formattedDate = [year, month, day].map(formatTime).join('/');
 
-            var dateTimeString = formattedDate + ' ' + formattedTime;
+            var dateTimeString = formattedDate;
 
             document.getElementById('datetime').textContent = dateTimeString;
 
-            // 更新时间，1000毫秒（1秒）后再次执行
-            setTimeout(updateDateTime, 1000);
-        }
-
-        // 辅助函数，用于格式化时间显示
-        function formatTime(time) {
-            return time < 10 ? '0' + time : time;
         }
 
         // 页面加载时执行更新日期和时间函数
