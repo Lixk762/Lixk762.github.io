@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>实时时钟</title>
+    <title>实时日期和时间</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -13,30 +13,43 @@
             height: 100vh;
             margin: 0;
         }
-        #clock {
+        #datetime {
             font-size: 48px;
         }
     </style>
 </head>
 <body>
-    <div id="clock"></div>
+    <div id="datetime"></div>
 
     <script>
-        function updateClock() {
+        function updateDateTime() {
             var now = new Date();
-            var hours = String(now.getHours()).padStart(2, '0');
-            var minutes = String(now.getMinutes()).padStart(2, '0');
-            var seconds = String(now.getSeconds()).padStart(2, '0');
-            var timeString = hours + ':' + minutes + ':' + seconds;
+            var year = now.getFullYear();
+            var month = now.getMonth() + 1; // getMonth() 返回的月份是从0开始的
+            var day = now.getDate();
+            var hours = now.getHours();
+            var minutes = now.getMinutes();
+            var seconds = now.getSeconds();
 
-            document.getElementById('clock').textContent = timeString;
+            // 格式化时间显示
+            var formattedDate = [year, month, day].map(formatTime).join('-');
+            var formattedTime = [hours, minutes, seconds].map(formatTime).join(':');
+
+            var dateTimeString = formattedDate + ' ' + formattedTime;
+
+            document.getElementById('datetime').textContent = dateTimeString;
 
             // 更新时间，1000毫秒（1秒）后再次执行
-            setTimeout(updateClock, 1000);
+            setTimeout(updateDateTime, 1000);
         }
 
-        // 页面加载时执行更新时间函数
-        window.onload = updateClock;
+        // 辅助函数，用于格式化时间显示
+        function formatTime(time) {
+            return time < 10 ? '0' + time : time;
+        }
+
+        // 页面加载时执行更新日期和时间函数
+        window.onload = updateDateTime;
     </script>
 </body>
 </html>
